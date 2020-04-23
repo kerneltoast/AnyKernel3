@@ -7,6 +7,7 @@ properties() { '
 kernel.string=Sultan Kernel for the Pixel 2 and Pixel 2 XL
 do.devicecheck=1
 do.modules=0
+do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
 device.name1=taimen
@@ -24,13 +25,7 @@ ramdisk_compression=auto;
 . tools/ak3-core.sh;
 
 ## AnyKernel install
-# dump_boot;
-split_boot;
+dump_boot;
 
-if [ -f $split_img/ramdisk.cpio ]; then
-  unpack_ramdisk;
-  repack_ramdisk;
-fi;
-
-flash_boot;
-flash_dtbo;
+write_boot;
+## end install
