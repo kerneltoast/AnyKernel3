@@ -4,15 +4,16 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Sultan Kernel for the Pixel 2 and Pixel 2 XL
+kernel.string=Sultan Kernel for the Pixel 4 and Pixel 4 XL
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=taimen
-device.name2=walleye
-supported.versions=10
+device.name1=coral
+device.name2=flame
+supported.versions=11
+supported.patchlevels=2020-12 -
 '; } # end properties
 
 # shell variables
