@@ -12,8 +12,6 @@ do.cleanup=1
 do.cleanuponabort=0
 device.name1=coral
 device.name2=flame
-supported.versions=11
-supported.patchlevels=2020-12 -
 '; } # end properties
 
 # shell variables
