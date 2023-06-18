@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Sultan Kernel for the Pixel 7 and Pixel 7 Pro
+kernel.string=Sultan Kernel for the Pixel 7/Pro and 7a
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -12,6 +12,7 @@ do.cleanup=1
 do.cleanuponabort=0
 device.name1=cheetah
 device.name2=panther
+device.name3=lynx
 supported.versions=
 supported.patchlevels=2023-03 -
 '; } # end properties
