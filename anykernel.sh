@@ -13,8 +13,7 @@ do.cleanuponabort=0
 device.name1=cheetah
 device.name2=panther
 device.name3=lynx
-supported.versions=13
-supported.patchlevels=2023-06 -
+supported.versions=14
 '; } # end properties
 
 # boot image installation
