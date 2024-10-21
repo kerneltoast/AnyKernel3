@@ -4,14 +4,15 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Sultan Kernel for the Pixel 8/Pro
+kernel.string=Sultan Kernel for the Pixel 9/Pro/XL
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=husky
-device.name2=shiba
+device.name1=caiman
+device.name2=komodo
+device.name3=tokay
 supported.versions=15
 '; } # end properties
 
